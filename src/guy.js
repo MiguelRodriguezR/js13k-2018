@@ -8,14 +8,15 @@ export default class Guy extends Body {
     this.element.innerHTML = `
     <svg id="guy">
       <g id="inner-guy">
-        <rect class="accent" x="0" y="17" width="24" height="21"/>
+        <rect class="accent" x="0" y="17" width="26" height="21"/>
         <rect id="left_foot" class="accent" x="4" y="38" width="6" height="10"/>
         <rect id="right_foot" class="accent" x="14" y="38" width="6" height="10"/>
         <g id="head">
-          <rect class="accent" x="0" y="0" width="26" height="19"/>
-          <rect id="face" x="4" y="3" width="20" height="14"/>
-          <rect class="accent" x="9" y="7" width="4" height="4"/>
-          <rect class="accent" x="17" y="7" width="4" height="4"/>
+          <polygon points="0 5 13 0 33 5"/>
+          <rect class="accent" x="0" y="5" width="26" height="29"/>
+          <rect id="face" x="4" y="5" width="20" height="14"/>
+          <rect class="accent" x="9" y="12" width="4" height="1"/>
+          <rect class="accent" x="17" y="12" width="4" height="1"/>
         </g>
       </g>
     </svg>`

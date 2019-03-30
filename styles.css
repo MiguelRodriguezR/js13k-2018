@@ -1,5 +1,5 @@
 :root {
-  --accent: #333;
+  --accent: #BA8F95;
   --secondary: #fff;
 }
 
@@ -165,7 +165,7 @@ svg {
 
 @keyframes walk {
   50% {
-    transform: translateY(-2px);
+    transform: translateY(-6px);
   }
 }
 
